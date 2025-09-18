@@ -2,29 +2,36 @@
 
 :root {
     /* Nova paleta de cores em tons de azul */
-    --primary-color: #1a56db;       /* Azul principal */
-    --primary-dark: #0f3e99;        /* Azul escuro */
-    --primary-light: #3b82f6;       /* Azul claro */
-    --primary-lighter: #ecf5ff;     /* Azul mais claro */
-    
-    --secondary-color: #0f172a;     /* Azul muito escuro*/
+    --primary-color: #1a56db;
+    /* Azul principal */
+    --primary-dark: #0f3e99;
+    /* Azul escuro */
+    --primary-light: #3b82f6;
+    /* Azul claro */
+    --primary-lighter: #ecf5ff;
+    /* Azul mais claro */
+
+    --secondary-color: #0f172a;
+    /* Azul muito escuro*/
     --text-secondary: #5f6368;
     --text-primary: #202124;
-    
-    --accent-color: #38bdf8;        /* Azul céu (acento) */
-    --accent-dark: #0284c7;         /* Azul céu escuro */
-    
-    --light-gray: #f1f5f9;
+
+    --accent-color: #38bdf8;
+    /* Azul céu (acento) */
+    --accent-dark: #0284c7;
+    /* Azul céu escuro */
+
+    --light-gray: #d8d8d811;
     --medium-gray: #cbd5e1;
-    --dark-gray: #64748b;
-    
+    --dark-gray: #848484;
+
     /* Cores de estado */
     --success: #10b981;
     --warning: #f59e0b;
     --error: #ef4444;
     --info: #3b82f6;
-    
-    --shadow-sm: 0 0 8px #00000043;
+
+    --shadow-sm: 0 0 20px #88888843;
 
     --transition: 0.3s ease;
 

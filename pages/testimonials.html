@@ -1,262 +1,344 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Milton Mand</title>
 
-    <link rel="stylesheet" href="../styles/testimonials.css">
-</head>
+    <link rel="stylesheet" href="../styles/testimonials.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container nav-bar">
-            <a href="#home" class="logo">
-                <img src="../public/icons/icon.png" alt="company logo">
-                <h2>HunGet</h2>
-            </a>
+      <div class="container nav-bar">
+        <a href="#home" class="logo">
+          <img src="../public/icons/icon.png" alt="company logo" />
+          <h2>HunGet</h2>
+        </a>
 
-            <nav class="nav-menu nav">
-                <ul>
-                    <li><a class="link" href="../index.html#home">Home</a></li>
-                    <li><a class="link" href="../index.html#about">About</a></li>
-                    <li><a class="link" href="../index.html#services">Services</a> </li>
-                    <li><a class="link" href="../index.html#projects">Portfolio</a></li>
-                    <li><a class="link" href="../index.htmlpages/login.html" target="_blank">Sign In</a></li>
-                    <li><a class="link contact" href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <nav class="nav-menu nav">
+          <ul>
+            <li><a class="link" href="../index.html#home">Home</a></li>
+            <li><a class="link" href="../index.html#about">About</a></li>
+            <li><a class="link" href="../index.html#services">Services</a></li>
+            <li><a class="link" href="../index.html#projects">Portfolio</a></li>
+            <li>
+              <a
+                class="link"
+                href="../index.htmlpages/login.html"
+                target="_blank"
+                >Sign In</a
+              >
+            </li>
+            <li><a class="link contact" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
 
-            <div class="menu-toggle" id="menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="menu-header">
+          <span class="close-btn" id="close-btn">&times;</span>
         </div>
 
-        <div class="menu-mobile" id="menu-mobile">
-            <div class="menu-header">
-                <span class="close-btn" id="close-btn">&times;</span>
-            </div>
-
-            <div class="menu-links nav">
-                 <ul>
-                    <li><a class="link" href="../index.html#home">Home</a></li>
-                    <li><a class="link" href="../index.html#about">About</a></li>
-                    <li><a class="link" href="../index.html#services">Services</a> </li>
-                    <li><a class="link" href="../index.html#projects">Portfolio</a></li>
-                    <li><a class="link" href="../index.htmlpages/login.html" target="_blank">Sign In</a></li>
-                    <li><a class="link contact" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+        <div class="menu-links nav">
+          <ul>
+            <li><a class="link" href="../index.html#home">Home</a></li>
+            <li><a class="link" href="../index.html#about">About</a></li>
+            <li><a class="link" href="../index.html#services">Services</a></li>
+            <li><a class="link" href="../index.html#projects">Portfolio</a></li>
+            <li>
+              <a
+                class="link"
+                href="../index.htmlpages/login.html"
+                target="_blank"
+                >Sign In</a
+              >
+            </li>
+            <li><a class="link contact" href="#contact">Contact</a></li>
+          </ul>
         </div>
+      </div>
     </header>
 
     <main>
-        <section id="feedbacks">
-            <div class="container">
-                <h2 class="subtitle">What Our Clients Are Saying</h2>
-                <div class="content">
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <i class="fas fa-quote-left"></i>
-                            <p>"Outstanding work! They exceeded all our expectations with a modern and functional
-                                website."</p>
-                        </div>
-                        <div class="stars">★★★★★</div>
-                        <div class="testimonial-author">
-                            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="client-photo"
-                                alt="João Silva photo">
-                            <div class="author-info">
-                                <h4>João Silva</h4>
-                                <p>CEO, Tech Solutions</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <i class="fas fa-quote-left"></i>
-                            <p>"Our website turned out amazing! Elegant design, intuitive navigation, and delivered
-                                right on time. Highly recommended!"</p>
-                        </div>
-                        <div class="stars">★★★★★</div>
-                        <div class="testimonial-author">
-                            <img src="https://randomuser.me/api/portraits/women/65.jpg" class="client-photo"
-                                alt="Maria Santos photo">
-                            <div class="author-info">
-                                <h4>Maria Santos</h4>
-                                <p>Director, Fashion Store</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <i class="fas fa-quote-left"></i>
-                            <p>"Very attentive and dedicated team. The post-project support was a key factor that won us
-                                over."</p>
-                        </div>
-                        <div class="stars">★★★★★</div>
-                        <div class="testimonial-author">
-                            <img src="https://randomuser.me/api/portraits/men/85.jpg" class="client-photo"
-                                alt="Carlos Menezes photo">
-                            <div class="author-info">
-                                <h4>Carlos Menezes</h4>
-                                <p>Founder, Startup Hub</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <i class="fas fa-quote-left"></i>
-                            <p>"Very attentive and dedicated team. The post-project support was a key factor that won us
-                                over."</p>
-                        </div>
-                        <div class="stars">★★★★★</div>
-                        <div class="testimonial-author">
-                            <img src="https://randomuser.me/api/portraits/men/86.jpg" class="client-photo"
-                                alt="Carlos Menezes photo">
-                            <div class="author-info">
-                                <h4>johnson Ford</h4>
-                                <p>Founder, Startups</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <i class="fas fa-quote-left"></i>
-                            <p>"Very attentive and dedicated team. The post-project support was a key factor that won us
-                                over."</p>
-                        </div>
-                        <div class="stars">★★★★★</div>
-                        <div class="testimonial-author">
-                            <img src="https://randomuser.me/api/portraits/men/80.jpg" class="client-photo"
-                                alt="Carlos Menezes photo">
-                            <div class="author-info">
-                                <h4>Myke Louren</h4>
-                                <p>Web design</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <i class="fas fa-quote-left"></i>
-                            <p>"Very attentive and dedicated team. The post-project support was a key factor that won us
-                                over."</p>
-                        </div>
-                        <div class="stars">★★★★★</div>
-                        <div class="testimonial-author">
-                            <img src="https://randomuser.me/api/portraits/women/49.jpg" class="client-photo"
-                                alt="Carlos Menezes photo">
-                            <div class="author-info">
-                                <h4>Ana Tylor</h4>
-                                <p>CEO, Manager</p>
-                            </div>
-                        </div>
-                    </div>
+      <section id="feedbacks">
+        <div class="container">
+          <h2 class="subtitle">What Our Clients Are Saying</h2>
+          <div class="content">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  "Outstanding work! They exceeded all our expectations with a
+                  modern and functional website."
+                </p>
+              </div>
+              <div class="stars">★★★★★</div>
+              <div class="testimonial-author">
+                <img
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  class="client-photo"
+                  alt="João Silva photo" />
+                <div class="author-info">
+                  <h4>João Silva</h4>
+                  <p>CEO, Tech Solutions</p>
                 </div>
+              </div>
             </div>
-        </section>
 
-        <section id="contact">
-            <div class="container">
-                <h2 class="subtitle">Speak With Us</h2>
-                <div class="contact-container">
-                    <div class="contact-info">
-                        <h2>Our Process</h2>
-                        <p>From initial planning to final delivery, we ensure excellence and transparency at every stage
-                            of development.</p>
-                        <ul>
-                            <li><strong>1. Planning:</strong> We understand your needs and goals.</li>
-                            <li><strong>2. Design:</strong> We create modern, intuitive, and responsive interfaces.</li>
-                            <li><strong>3. Development:</strong> We apply best practices and cutting-edge technologies.
-                            </li>
-                            <li><strong>4. Testing:</strong> We conduct thorough tests to guarantee top quality.</li>
-                            <li><strong>5. Delivery:</strong> We implement the solution and provide ongoing support.
-                            </li>
-                        </ul>
-                    </div>
-                    <form id="contact-form">
-                        <input type="text" name="name" placeholder="Your full name" required>
-                        <input class="full-width" type="email" name="email" placeholder="Your best email" required>
-                        <select name="service" id="service">
-                            <option value="">-----------Select a Service-----------</option>
-                            <option value="Corporate Websites">Corporate Website</option>
-                            <option value="E-commerce Stores">E-commerce Stores</option>
-                            <option value="Web Design and Development">Web Design and Development</option>
-                            <option value="Landing Pages and Portfolios">Landing Pages and Portfolios</option>
-                            <option value="Website Updates and Modernization">Website Updates and Modernization</option>
-                            <option value="Support and Maintenance">Support and Maintenance</option>
-                            <option value="Other Service">Other Service</option>
-                        </select>
-                        <textarea class="full-width" name="message" rows="4" placeholder="Type your message"
-                            required></textarea>
-                        <button type="submit" id="submit-btn">
-                            <span id="submitText">Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  "Our website turned out amazing! Elegant design, intuitive
+                  navigation, and delivered right on time. Highly recommended!"
+                </p>
+              </div>
+              <div class="stars">★★★★★</div>
+              <div class="testimonial-author">
+                <img
+                  src="https://randomuser.me/api/portraits/women/65.jpg"
+                  class="client-photo"
+                  alt="Maria Santos photo" />
+                <div class="author-info">
+                  <h4>Maria Santos</h4>
+                  <p>Director, Fashion Store</p>
                 </div>
+              </div>
             </div>
-        </section>
+
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  "Very attentive and dedicated team. The post-project support
+                  was a key factor that won us over."
+                </p>
+              </div>
+              <div class="stars">★★★★★</div>
+              <div class="testimonial-author">
+                <img
+                  src="https://randomuser.me/api/portraits/men/85.jpg"
+                  class="client-photo"
+                  alt="Carlos Menezes photo" />
+                <div class="author-info">
+                  <h4>Carlos Menezes</h4>
+                  <p>Founder, Startup Hub</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  "Very attentive and dedicated team. The post-project support
+                  was a key factor that won us over."
+                </p>
+              </div>
+              <div class="stars">★★★★★</div>
+              <div class="testimonial-author">
+                <img
+                  src="https://randomuser.me/api/portraits/men/86.jpg"
+                  class="client-photo"
+                  alt="Carlos Menezes photo" />
+                <div class="author-info">
+                  <h4>johnson Ford</h4>
+                  <p>Founder, Startups</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  "Very attentive and dedicated team. The post-project support
+                  was a key factor that won us over."
+                </p>
+              </div>
+              <div class="stars">★★★★★</div>
+              <div class="testimonial-author">
+                <img
+                  src="https://randomuser.me/api/portraits/men/80.jpg"
+                  class="client-photo"
+                  alt="Carlos Menezes photo" />
+                <div class="author-info">
+                  <h4>Myke Louren</h4>
+                  <p>Web design</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  "Very attentive and dedicated team. The post-project support
+                  was a key factor that won us over."
+                </p>
+              </div>
+              <div class="stars">★★★★★</div>
+              <div class="testimonial-author">
+                <img
+                  src="https://randomuser.me/api/portraits/women/49.jpg"
+                  class="client-photo"
+                  alt="Carlos Menezes photo" />
+                <div class="author-info">
+                  <h4>Ana Tylor</h4>
+                  <p>CEO, Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2 class="subtitle">Speak With Us</h2>
+          <div class="contact-container">
+            <div class="contact-info">
+              <h2>Our Process</h2>
+              <p>
+                From initial planning to final delivery, we ensure excellence
+                and transparency at every stage of development.
+              </p>
+              <ul>
+                <li>
+                  <strong>1. Planning:</strong> We understand your needs and
+                  goals.
+                </li>
+                <li>
+                  <strong>2. Design:</strong> We create modern, intuitive, and
+                  responsive interfaces.
+                </li>
+                <li>
+                  <strong>3. Development:</strong> We apply best practices and
+                  cutting-edge technologies.
+                </li>
+                <li>
+                  <strong>4. Testing:</strong> We conduct thorough tests to
+                  guarantee top quality.
+                </li>
+                <li>
+                  <strong>5. Delivery:</strong> We implement the solution and
+                  provide ongoing support.
+                </li>
+              </ul>
+            </div>
+            <form id="contact-form">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your full name"
+                required />
+              <input
+                class="full-width"
+                type="email"
+                name="email"
+                placeholder="Your best email"
+                required />
+              <select name="service" id="service">
+                <option value="">-----------Select a Service-----------</option>
+                <option value="Corporate Websites">Corporate Website</option>
+                <option value="E-commerce Stores">E-commerce Stores</option>
+                <option value="Web Design and Development">
+                  Web Design and Development
+                </option>
+                <option value="Landing Pages and Portfolios">
+                  Landing Pages and Portfolios
+                </option>
+                <option value="Website Updates and Modernization">
+                  Website Updates and Modernization
+                </option>
+                <option value="Support and Maintenance">
+                  Support and Maintenance
+                </option>
+                <option value="Other Service">Other Service</option>
+              </select>
+              <textarea
+                class="full-width"
+                name="message"
+                rows="4"
+                placeholder="Type your message"
+                required></textarea>
+              <button type="submit" id="submit-btn">
+                <span id="submitText">Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
-  <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Sobre Nós</h3>
-                    <p>A TechVision é uma empresa especializada em desenvolvimento web, aplicativos móveis e soluções
-                        digitais
-                        completas para seu negócio.</p>
-                    <p>CNPJ: 12.345.678/0001-99</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Links Rápidos</h3>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">Sobre</a></li>
-                        <li><a href="#services">Serviços</a></li>
-                        <li><a href="#projects">Portfólio</a></li>
-                        <li><a href="#contact">Contato</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Serviços</h3>
-                    <ul class="footer-links">
-                        <li><a href="#services">Desenvolvimento Web</a></li>
-                        <li><a href="#services">Aplicativos Móveis</a></li>
-                        <li><a href="#services">E-commerce</a></li>
-                        <li><a href="#services">Marketing Digital</a></li>
-                        <li><a href="#services">Hospedagem & Cloud</a></li>
-                        <li><a href="#services">Consultoria & Suporte</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Newsletter</h3>
-                    <p>Assine nossa newsletter e receba novidades e promoções em seu email.</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Seu email" class="form-control" style="margin-bottom: 1rem;">
-                        <button type="submit" class="btn btn-primary">Assinar</button>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 TechVision. Todos os direitos reservados. | <a href="#">Política de Privacidade</a> | <a
-                        href="#">Termos de Uso</a></p>
-            </div>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Sobre Nós</h3>
+            <p>
+              A TechVision é uma empresa especializada em desenvolvimento web,
+              aplicativos móveis e soluções digitais completas para seu negócio.
+            </p>
+            <p>CNPJ: 12.345.678/0001-99</p>
+          </div>
+          <div class="footer-column">
+            <h3>Links Rápidos</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#services">Serviços</a></li>
+              <li><a href="#projects">Portfólio</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Serviços</h3>
+            <ul class="footer-links">
+              <li><a href="#services">Desenvolvimento Web</a></li>
+              <li><a href="#services">Aplicativos Móveis</a></li>
+              <li><a href="#services">E-commerce</a></li>
+              <li><a href="#services">Marketing Digital</a></li>
+              <li><a href="#services">Hospedagem & Cloud</a></li>
+              <li><a href="#services">Consultoria & Suporte</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Newsletter</h3>
+            <p>
+              Assine nossa newsletter e receba novidades e promoções em seu
+              email.
+            </p>
+            <form class="newsletter-form">
+              <input
+                type="email"
+                placeholder="Seu email"
+                class="form-control"
+                style="margin-bottom: 1rem" />
+              <button type="submit" class="btn btn-primary">Assinar</button>
+            </form>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2023 TechVision. Todos os direitos reservados. |
+            <a href="#">Política de Privacidade</a> |
+            <a href="#">Termos de Uso</a>
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="../scripts/testimonials.js"></script>
     <script type="module" src="../scripts/contact.js"></script>
-</body>
-
+  </body>
 </html>

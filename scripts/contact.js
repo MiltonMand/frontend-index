@@ -8,7 +8,7 @@ function errorMsg(error) {
     if (error.response) {
         const status = error.response.status;
 
-        if (status === 401) {
+        if (status == 401) {
             showMessage('error', 'Sessão expirada. Faça login novamente.');
             setTimeout(() => {
                 window.location.href = 'login.html';
