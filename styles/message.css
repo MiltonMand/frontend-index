@@ -17,7 +17,7 @@
     border-left: 4px solid var(--success);
 }
 
-.toast.success i {
+.toast.success i,.toast.success span {
     color: var(--success);
 }
 
@@ -25,7 +25,7 @@
     border-left: 4px solid var(--error);
 }
 
-.toast.error i {
+.toast.error i, .toast.error span {
     color: var(--error);
 }
 

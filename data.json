@@ -1,0 +1,247 @@
+{
+  "feedbacks": [
+    {
+      "_id": "fb1",
+      "name": "John Silva",
+      "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+      "profession": "UI/UX Designer",
+      "stars": 4.5,
+      "message": "Outstanding service and clear communication. Delivery was ahead of schedule.",
+      "view": true
+    },
+    {
+      "_id": "fb2",
+      "name": "Maria Fernandez",
+      "photo": "https://randomuser.me/api/portraits/women/65.jpg",
+      "profession": "Entrepreneur",
+      "stars": 5,
+      "message": "Very professional team, the website is fast and perfectly optimized.",
+      "view": true
+    },
+    {
+      "_id": "fb3",
+      "name": "Kevin Roberts",
+      "photo": "https://randomuser.me/api/portraits/men/85.jpg",
+      "profession": "Software Engineer",
+      "stars": 4.8,
+      "message": "They implemented complex features smoothly and provided excellent support.",
+      "view": true
+    },
+    {
+      "_id": "fb4",
+      "name": "Sophie Martin",
+      "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+      "profession": "Marketing Manager",
+      "stars": 4.7,
+      "message": "The team brought our brand vision to life with a stunning website redesign.",
+      "view": true
+    },
+    {
+      "_id": "fb5",
+      "name": "Daniel Kim",
+      "photo": "https://randomuser.me/api/portraits/men/51.jpg",
+      "profession": "Startup Founder",
+      "stars": 5,
+      "message": "Exceptional attention to detail and top-notch performance. Highly recommended.",
+      "view": true
+    },
+    {
+      "_id": "fb6",
+      "name": "Laura Rossi",
+      "photo": "https://randomuser.me/api/portraits/women/29.jpg",
+      "profession": "Content Creator",
+      "stars": 4.9,
+      "message": "Fast delivery and creative solutions that exceeded expectations.",
+      "view": true
+    },
+    {
+      "_id": "fb7",
+      "name": "André Costa",
+      "photo": "https://randomuser.me/api/portraits/men/74.jpg",
+      "profession": "Business Analyst",
+      "stars": 4.6,
+      "message": "Great collaboration throughout the project and solid technical expertise.",
+      "view": true
+    },
+    {
+      "_id": "fb8",
+      "name": "Emma Johnson",
+      "photo": "https://randomuser.me/api/portraits/women/83.jpg",
+      "profession": "Freelance Writer",
+      "stars": 5,
+      "message": "Amazing support and flawless execution of my personal portfolio site.",
+      "view": true
+    },
+    {
+      "_id": "fb9",
+      "name": "Victor Lee",
+      "photo": "https://randomuser.me/api/portraits/men/12.jpg",
+      "profession": "Data Scientist",
+      "stars": 4.8,
+      "message": "They quickly understood complex requirements and delivered a high-quality app.",
+      "view": true
+    }
+  ],
+  "services": [
+    {
+      "_id": "srv1",
+      "title": "Landing Pages and Portfolios",
+      "description": "Development of high-conversion pages to capture leads, showcase products or services, and present your work in an elegant and focused way.",
+      "image": "https://assets.justinmind.com/wp-content/uploads/2020/02/free-website-mockups-lawyer.png",
+      "classIcon": "fas fa-file-alt"
+    },
+    {
+      "_id": "srv3",
+      "title": "Support and Maintenance",
+      "description": "Ongoing technical assistance to keep your site always updated, secure, and running smoothly, allowing you to focus on growing your business.",
+      "image": "https://assets.justinmind.com/wp-content/uploads/2020/02/free-website-mockups-lawyer.png",
+      "classIcon": "fas fa-headset"
+    },
+    {
+      "_id": "srv4",
+      "title": "Website Updates and Modernization",
+      "description": "Renewal of your site’s look and features to ensure better performance, SEO, and a current, attractive browsing experience for your visitors.",
+      "image": "https://assets.justinmind.com/wp-content/uploads/2020/02/free-website-mockups-lawyer.png",
+      "classIcon": "fas fa-sync-alt"
+    },
+    {
+      "_id": "srv5",
+      "title": "Corporate Websites",
+      "description": "Development of professional and customized websites for your company, with modern design and optimized functionality to strengthen your online presence.",
+      "image": "https://assets.justinmind.com/wp-content/uploads/2020/02/free-website-mockups-lawyer.png",
+      "classIcon": "fas fa-laptop-code"
+    }
+  ],
+  "projects": [
+    {
+      "_id": "prj1",
+      "title": "E-commerce Platform",
+      "category": "Website",
+      "description": "Complete online store with admin panel and payment integration.",
+      "image": "https://unblast.com/wp-content/uploads/2025/08/app-mockup-.jpg",
+      "techStack": ["React", "Node.js", "MongoDB"],
+      "features": [
+        "Shopping cart",
+        "Payment via PayPal and credit card",
+        "Customer dashboard with order history"
+      ]
+    },
+    {
+      "_id": "prj2",
+      "title": "Finance Tracker App",
+      "category": "Mobile App",
+      "description": "Mobile app for expense tracking and real-time reporting.",
+      "image": "https://unblast.com/wp-content/uploads/2020/04/Data-Warehouse-Website-Template-1.jpg",
+      "techStack": ["Flutter", "Firebase"],
+      "features": [
+        "Expense and income logging",
+        "Real-time charts",
+        "PDF export of reports"
+      ]
+    },
+    {
+      "_id": "prj3",
+      "title": "Company Portfolio Website",
+      "category": "Website",
+      "description": "Professional portfolio showcasing services, team and contact forms.",
+      "image": "https://unblast.com/wp-content/uploads/2020/10/Drop-Education-Website-Template.jpg",
+      "techStack": ["Next.js", "Tailwind CSS"],
+      "features": [
+        "SEO optimization",
+        "Interactive gallery",
+        "Dynamic blog section"
+      ]
+    },
+    {
+      "_id": "prj4",
+      "title": "Real-Time Chat Application",
+      "category": "Web App",
+      "description": "Browser-based chat platform with private rooms and notifications.",
+      "image": "https://assets.justinmind.com/wp-content/uploads/2020/02/free-website-mockups-lawyer.png",
+      "techStack": ["Vue.js", "Node.js", "Socket.io"],
+      "features": [
+        "Instant messaging",
+        "User authentication",
+        "Push notifications"
+      ]
+    },
+    {
+      "_id": "prj5",
+      "title": "Online Learning Platform",
+      "category": "Web App",
+      "description": "Full-featured e-learning site with video streaming and quizzes.",
+      "image": "https://unblast.com/wp-content/uploads/2022/11/Phone-Screen-App-Display-Mockup--300x225.jpg",
+      "techStack": ["Django", "React"],
+      "features": [
+        "Video lessons and quizzes",
+        "Progress tracking",
+        "Instructor dashboard"
+      ]
+    },
+    {
+      "_id": "prj6",
+      "title": "Restaurant Ordering System",
+      "category": "Mobile App",
+      "description": "Mobile app for table reservations and online ordering.",
+      "image": "https://unblast.com/wp-content/uploads/2018/07/Global-Media-Website-Template-300x235.jpg",
+      "techStack": ["React Native", "Firebase"],
+      "features": [
+        "Menu browsing",
+        "Real-time order tracking",
+        "Push notifications"
+      ]
+    },
+    {
+      "_id": "prj7",
+      "title": "Healthcare Appointment Portal",
+      "category": "Website",
+      "description": "Platform to schedule doctor appointments and manage patient records.",
+      "image": "https://unblast.com/wp-content/uploads/2020/07/Browsing-Apartments-Website-Template.jpg",
+      "techStack": ["Laravel", "Vue.js"],
+      "features": [
+        "Secure patient data",
+        "Automated reminders",
+        "Payment gateway integration"
+      ]
+    },
+    {
+      "_id": "prj8",
+      "title": "Travel Booking Engine",
+      "category": "Web App",
+      "description": "Web system for booking flights and hotels with dynamic pricing.",
+      "image": "https://unblast.com/wp-content/uploads/2018/10/Hotel-Booking-Website-Template-0.jpg",
+      "techStack": ["Angular", "Node.js", "PostgreSQL"],
+      "features": [
+        "Flight and hotel search",
+        "Real-time pricing",
+        "User booking history"
+      ]
+    },
+    {
+      "_id": "prj9",
+      "title": "Fitness Tracking Dashboard",
+      "category": "Web App",
+      "description": "Dashboard for gyms to monitor client workouts and progress.",
+      "image": "https://goodmockups.com/wp-content/uploads/2023/11/Free-Website-Template-Theme-Mockup-PSD-648x470.jpg",
+      "techStack": ["React", "Express", "MongoDB"],
+      "features": [
+        "Workout tracking",
+        "Progress charts",
+        "Trainer communication tools"
+      ]
+    },
+    {
+      "_id": "prj10",
+      "title": "Event Management Platform",
+      "category": "Web App",
+      "description": "Tool for creating, promoting, and selling tickets to events.",
+      "image": "https://goodmockups.com/wp-content/uploads/2022/11/Free-Website-Template-Presentation-Mockup-PSD-648x470.jpg",
+      "techStack": ["Ruby on Rails", "Stimulus"],
+      "features": [
+        "Ticket sales and QR code check-in",
+        "Attendee analytics",
+        "Email notifications"
+      ]
+    }
+  ]
+}
